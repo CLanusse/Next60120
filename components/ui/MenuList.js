@@ -21,6 +21,7 @@ const MenuList = ({open, setOpen}) => {
                     <Link onClick={handleClose} href={"/productos/all"}>Productos</Link>
                     <Link onClick={handleClose} href={"/nosotros"}>Nosotros</Link>
                     <Link onClick={handleClose} href={"/contacto"}>Contacto</Link>
+                    <Link onClick={handleClose} href={"/posts"}>Posts</Link>
                 </nav>
             </aside>
         </div>
