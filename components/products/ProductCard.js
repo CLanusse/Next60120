@@ -10,7 +10,7 @@ const ProductCard = ({ item }) => {
             <Link href={`/productos/detail/${item.slug}`}>
                 <Image 
                     alt={item.title}
-                    src={`/imgs/products/${item.image}`}
+                    src={item.image}
                     width={288}
                     height={288}
                 />
