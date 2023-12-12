@@ -10,7 +10,7 @@ const getProducts = async (categoria) => {
                 : query(productsRef, where('type', '==', categoria))
 
     const querySnapshot = await getDocs( q )
-
+    // throw new Error("Error de carga de productos")
     return querySnapshot.docs.map( docSnapshot => docSnapshot.data() )
 }
 

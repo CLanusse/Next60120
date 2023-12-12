@@ -1,4 +1,7 @@
 
+export const metadata = {
+    title: 'Nosotros'
+}
 
 const Nosotros = () => {
 

@@ -1,11 +1,11 @@
-// import { getPosts } from "./utils"
+import { getPosts } from "./utils"
 
 import Link from "next/link"
 
 const Posts = async () => {
-    // const posts = await getPosts()
-    const response = await fetch('http://localhost:3000/api/posts')
-    const posts = await response.json()
+    const posts = await getPosts()
+    // const response = await fetch('/api/posts')
+    // const posts = await response.json()
 
     return (
         <ul>
